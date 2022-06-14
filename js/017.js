@@ -3,4 +3,10 @@
 function usdcny(usd) {
     let con = usd * 6.75
     return `${con.toFixed(2)} Chinese Yuan`
+  function chromosomeCheck(sperm) {
+    if (sperm === "XX") {
+      return "Congratulations! You're going to have a daughter."
+    } else if (sperm === "XY") {
+      return "Congratulations! You're going to have a son."
+    } 
   }
